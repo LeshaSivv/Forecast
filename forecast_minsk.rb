@@ -3,7 +3,7 @@
 require 'net/http'
 require 'uri'
 require 'rexml/document'
-require_relative 'town_iter.rb'
+require_relative 'method.rb'
 
 choice = nil
 until [1, 2, 3].include?(choice)
